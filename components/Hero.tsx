@@ -168,7 +168,7 @@ const Hero = () => {
                     >
                         {[
                             { number: '10+', label: 'Organizations' },
-                            { number: '1K+', label: 'Active Vehiles' },
+                            { number: '1K+', label: 'Active Vehicles' },
                             { number: '10K+', label: 'Daily Trips' },
                             { number: '99.9%', label: 'Uptime' },
                         ].map((stat, index) => (
