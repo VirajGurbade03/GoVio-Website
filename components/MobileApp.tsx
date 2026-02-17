@@ -179,7 +179,7 @@ const MobileApp = () => {
 
                             {/* Direct APK Download Link */}
                             <motion.a
-                                href="/Govio app/app-release.apk"
+                                href="https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0/app-release.apk"
                                 download
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
@@ -214,7 +214,7 @@ const MobileApp = () => {
                                 <div className="relative group">
                                     <div className="w-24 h-24 bg-white rounded-xl flex items-center justify-center shadow-lg p-2 transition-transform group-hover:scale-105">
                                         <img
-                                            src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(typeof window !== 'undefined' ? window.location.origin + '/Govio app/app-release.apk' : 'https://govio.app/Govio app/app-release.apk')}`}
+                                            src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent('https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0/app-release.apk')}`}
                                             alt="Scan to Download APK"
                                             className="w-full h-full"
                                         />
@@ -224,7 +224,7 @@ const MobileApp = () => {
                                     <h4 className="font-bold text-lg mb-1 text-gray-900">Scan to Download</h4>
                                     <p className="text-sm text-gray-600 mb-3">Scan this with your phone camera to download the Android App directly.</p>
                                     <a
-                                        href="/Govio app/app-release.apk"
+                                        href="https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0/app-release.apk"
                                         download
                                         className="text-primary-600 text-sm font-bold hover:underline flex items-center"
                                     >
