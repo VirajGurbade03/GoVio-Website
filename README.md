@@ -82,6 +82,3 @@ npm start
 
 © 2026 GoVio. All rights reserved.
 
-## 🤝 Support
-
-For support, email sales@govio.app or call +91 98765 43210
