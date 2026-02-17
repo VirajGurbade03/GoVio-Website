@@ -23,12 +23,12 @@ const WebAppAccess = () => {
         {
             icon: <FaMapMarkedAlt size={28} />,
             title: 'Live Map View',
-            description: 'View all buses on a single map with real-time location updates',
+            description: 'View all vehicles on a single map with real-time location updates',
         },
         {
             icon: <FaChartPie size={28} />,
             title: 'Maintenance Analytics',
-            description: 'Monitor vehicle status and maintenance schedules with detailed',
+            description: 'Monitor vehicles status and maintenance schedules with detailed',
         },
         {
             icon: <FaUserShield size={28} />,

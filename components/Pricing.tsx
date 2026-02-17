@@ -82,7 +82,7 @@ const Pricing = () => {
                                     {/* Highlight */}
                                     <div className="bg-gradient-to-r from-secondary-100 to-secondary-50 border-l-4 border-secondary-600 p-6 rounded-r-2xl">
                                         <p className="text-secondary-900 font-bold text-lg">
-                                            "Scales with users, not buses."
+                                            "Scales with users, not vehicles."
                                         </p>
                                         <p className="text-secondary-700 text-sm mt-2">
                                             Unlimited fleet support for your organization

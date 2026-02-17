@@ -136,7 +136,7 @@ const MobileApp = () => {
                             Download the <span className="gradient-text">GoVio App</span>
                         </h2>
                         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                            Track your bus in real-time, get instant notifications, and never miss your ride. Available for iOS and Android.
+                            Track your vehicle in real-time, get instant notifications, and never miss your ride. Available for iOS and Android.
                         </p>
 
                         {/* Features */}

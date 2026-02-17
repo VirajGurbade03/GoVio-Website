@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "GoVio - Smart Transport Management System | Real-time Bus Tracking",
+    title: "GoVio - Smart Transport Management System | Real-time Vehicle Tracking",
     description: "GoVio provides intelligent transport management solutions for schools, universities, corporate companies, and transport operators. Real-time tracking, route optimization, and comprehensive analytics.",
-    keywords: "transport management, bus tracking, fleet management, school transport, corporate transport, GPS tracking, route optimization",
+    keywords: "transport management, vehicle tracking, fleet management, school transport, corporate transport, GPS tracking, route optimization",
     authors: [{ name: "GoVio" }],
     icons: {
         icon: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "GoVio - Smart Transport Management System",
-        description: "Real-time bus tracking & transport management for organizations",
+        description: "Real-time vehicle tracking & transport management for organizations",
         type: "website",
         locale: "en_US",
         images: ['/assests/logo/govio_icon.png'],
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "GoVio - Smart Transport Management System",
-        description: "Real-time bus tracking & transport management for organizations",
+        description: "Real-time vehicle tracking & transport management for organizations",
         images: ['/assests/logo/govio_icon.png'],
     },
     robots: {
