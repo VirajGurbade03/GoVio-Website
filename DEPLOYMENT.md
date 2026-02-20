@@ -138,6 +138,35 @@ npm start
 
 5. Configure reverse proxy (Nginx/Apache)
 
+### Option 4: Firebase Hosting (Recommended for GoVio)
+
+#### Steps:
+1. Build the project
+   ```bash
+   npm run build
+   ```
+
+2. Install Firebase CLI (if not already):
+   ```bash
+   npm install -g firebase-tools
+   ```
+
+3. Initialize Firebase (one-time setup):
+   ```bash
+   firebase login
+   firebase init
+   ```
+   *Select: Hosting: Configure files for Firebase Hosting*
+   *Set public directory to: `.next` (for Next.js)*
+
+4. Deploy:
+   ```bash
+   firebase deploy
+   ```
+
+**Project ID:** `govio-a61ea`
+**Live URL:** [govio-a61ea.web.app](https://govio-a61ea.web.app)
+
 ---
 
 ## 🔧 Post-Deployment Tasks

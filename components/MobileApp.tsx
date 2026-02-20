@@ -214,7 +214,7 @@ const MobileApp = () => {
                                 <div className="relative group">
                                     <div className="w-24 h-24 bg-white rounded-xl flex items-center justify-center shadow-lg p-2 transition-transform group-hover:scale-105">
                                         <img
-                                            src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(typeof window !== 'undefined' ? window.location.origin + '/Govio app/GoVio.apk' : 'https://govio-website.vercel.app/Govio app/GoVio.apk')}`}
+                                            src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(typeof window !== 'undefined' ? window.location.origin + '/Govio app/GoVio.apk' : 'https://govio-a61ea.web.app/Govio app/GoVio.apk')}`}
                                             alt="Scan to Download APK"
                                             className="w-full h-full"
                                         />
